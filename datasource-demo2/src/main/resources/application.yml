@@ -25,7 +25,7 @@ spring:
       db2:
         name: mysql
         driverClassName: com.mysql.cj.jdbc.Driver
-        username: root
+        username: ***REMOVED***
         password: ***REMOVED***
         url: jdbc:mysql://***REMOVED***?characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
     type: com.alibaba.druid.pool.DruidDataSource
