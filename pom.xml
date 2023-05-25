@@ -12,5 +12,6 @@
     <modules>
         <module>datasource-demo1</module>
         <module>datasource-demo2</module>
+        <module>datasource-demo3</module>
     </modules>
 </project>
