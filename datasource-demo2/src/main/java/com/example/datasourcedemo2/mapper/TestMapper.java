@@ -8,7 +8,6 @@ import java.util.Map;
 
 @Mapper
 public interface TestMapper {
-
     @MapKey("id")
     List<Map<String, Object>> selectDm();
 
