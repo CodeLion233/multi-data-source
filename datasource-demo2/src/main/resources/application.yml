@@ -1,0 +1,30 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    com:
+      example:
+        datasourcedemo1:
+          mapper:
+            dm: debug
+            mysql: debug
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+spring:
+  datasource:
+    druid:
+      db1:
+        driverClassName: dm.jdbc.driver.DmDriver
+        name: dm
+        password: root
+        url: jdbc:dm://127.0.0.1:5236/test
+        username: root
+      db2:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        name: mysql
+        password: root
+        url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
+        username: root
+    type: com.alibaba.druid.pool.DruidDataSource
