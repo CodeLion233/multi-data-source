@@ -84,8 +84,6 @@ public class DB1DataSourceConfig {
 
 ![image-20230524095335856](多数据源.assets/image-20230524095335856.png)
 
-![image-20230523145932440](多数据源.assets/image-20230523145932440.png)
-
 ## 基于AbstractRoutingDataSource的多数据源动态切换
 
 核心在 `AbstractRoutingDataSource` 类上
